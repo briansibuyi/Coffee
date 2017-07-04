@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brian.coffee.Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menuzz">
+
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="102dp"
+            android:layout_marginLeft="136dp"
+            android:textColor="#312c1b"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_marginTop="13dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="17dp"
+            android:text="Place an Order"
+            android:textAllCaps="false"
+            android:background="#f9f0d4"
+            android:padding="6dp"/>
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
